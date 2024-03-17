@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>speed typing</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+       <header class="head">
+        <h1> SPEED TYPING</h1>
+       </header> 
+       <div class="intro">
+          <h2>Type the given word within <span class="sec"><b>3</b></span>  seconds</h2>
+       </div>
+        <div class="current-word" id="current-word">
+           <h2>hello</h2>
+        </div>
+        <input type="text" class="type-box" id="type-box" placeholder="Start typying..."autofocus >
+        <div class="msg" id="msg"></div>
+         <div class="time-left" >
+            <h2>Time left : <span id="time-left" >0</span></h2>
+         </div>
+         <div class="score" >
+            <h2>Score : <span id="score">0</span></h2>
+         </div>
+         <div class="high-score">
+            <h2>High Score : <span id="high-score">0</span></h2>
+         </div>
+
+    </div>
+   
+</body>
+<script type="module" src="./main.js" ></script>
+</html>
